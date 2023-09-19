@@ -23,7 +23,7 @@ COPY index.ts ./
 RUN pnpm run build
 
 
-FROM node:20-bookworm
+FROM node:20-bookworm-slim
 
 ENV TINI_VERSION v0.19.0
 
